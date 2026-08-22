@@ -7,7 +7,7 @@ The report details the setup of the target geometry configuration (`SPHERES_N`),
 Repository Contents
 ---
 * `Cs_Nanosphere_Simulation_DDSCAT.pdf` — Undergraduate project report covering DDA theory, target file setup, extinction spectra, and LSPR analysis[cite: 3].
-* `plot_extinction.py` — Python script for plotting extinction spectra against wavelength for different nanoparticle radii and separation values[cite: 3].
+* `plotting_Q_ext.py` — Python script for plotting extinction spectra against wavelength for different nanoparticle radii and separation values[cite: 3].
 
 Requirements
 ---
