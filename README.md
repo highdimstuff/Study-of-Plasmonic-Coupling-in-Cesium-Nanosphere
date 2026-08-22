@@ -37,20 +37,3 @@ Unlike noble metal nanostructures (e.g., gold dimers) which exhibit pronounced p
 ### 2. Separation-Dependent Extinction Spectra ($a_0 = 10\text{ nm}$)
 * Varying inter-particle distance from $0$ to $12d$ ($18\text{ nm}$) results in minimal peak shift ($697\text{ nm}$ to $709\text{ nm}$).
 * The lack of peak splitting or significant field enhancement indicates weak intrinsic plasmonic coupling between cesium nanoparticles compared to gold or silver nanostructures.
-
----
-
-## File Structure
-
-```text
-├── reports/
-│   └── Cs_Nanosphere_simulation_ddscat.pdf   # Complete project report
-├── ddscat_config/
-│   ├── ddscat.par                            # DDSCAT parameter file
-│   └── target.targ                           # SPHERES_N target geometry definition
-├── data/
-│   ├── radius_variation/                     # Raw output data files for r = 10, 20, 30, 40 nm
-│   └── separation_variation/                 # Raw output data files for separation = 0d to 12d
-├── scripts/
-│   └── plot_extinction.py                    # Python code for processing and plotting Q_ext spectra
-└── README.md
